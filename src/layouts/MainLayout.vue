@@ -45,31 +45,31 @@
 </template>
 
 <script>
-import EssentialLink from 'components/EssentialLink.vue'
+	import EssentialLink from 'components/EssentialLink.vue'
 
-const linksData = [
-  {
-    title: 'View contacts',
-    caption: 'contacts list',
-    icon: 'view_comfy',
-    to: '/'
-  },
-  {
-    title: 'Contacts import',
-    caption: 'import a CSV contacts file',
-    icon: 'contacts',
-    to: '/contacts'
-  }
-]
+	const linksData = [
+		{
+			title: 'View contacts',
+			caption: 'contacts list',
+			icon: 'view_comfy',
+			to: '/'
+		},
+		{
+			title: 'Contacts import',
+			caption: 'import a CSV contacts file',
+			icon: 'contacts',
+			to: '/contacts'
+		}
+	]
 
-export default {
-  name: 'MainLayout',
-  components: { EssentialLink },
-  data () {
-    return {
-      leftDrawerOpen: false,
-      essentialLinks: linksData
-    }
-  }
-}
+	export default {
+		name: 'MainLayout',
+		components: { EssentialLink },
+		data () {
+			return {
+				leftDrawerOpen: false,
+				essentialLinks: linksData
+			}
+		}
+	}
 </script>

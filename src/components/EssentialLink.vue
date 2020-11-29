@@ -20,32 +20,32 @@
 </template>
 
 <script>
-export default {
-  name: 'EssentialLink',
-  props: {
-    title: {
-      type: String,
-      required: true
-    },
+	export default {
+		name: 'EssentialLink',
+		props: {
+			title: {
+				type: String,
+				required: true
+			},
 
-    caption: {
-      type: String,
-      default: ''
-    },
+			caption: {
+				type: String,
+				default: ''
+			},
 
-    link: {
-      type: String,
-      default: '#'
-    },
+			link: {
+				type: String,
+				default: '#'
+			},
 
-    icon: {
-      type: String,
-      default: ''
-    },
-    to: {
-      type: String,
-      default: ''
-    }
-  }
-}
+			icon: {
+				type: String,
+				default: ''
+			},
+			to: {
+				type: String,
+				default: ''
+			}
+		}
+	}
 </script>
