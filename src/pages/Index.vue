@@ -4,6 +4,7 @@
       title="Contacts"
       :data="data"
       :columns="columns"
+      style="min-width: 500px"
     />
   </q-page>
 </template>

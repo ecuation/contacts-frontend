@@ -1,7 +1,7 @@
 <template>
   <q-page class="flex flex-center">
 
-    <q-card flat bordered style="width: 20%;">
+    <q-card flat bordered style="min-width:400px; width: 20%;">
       <q-form class="q-pa-sm" ref="importForm">
 
         <q-file ref="inputFile" color="primary" v-model="file" label="CSV File" clearable :lazy-rules="true" :rules="[
