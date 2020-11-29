@@ -49,10 +49,16 @@ import EssentialLink from 'components/EssentialLink.vue'
 
 const linksData = [
   {
-    title: 'Contacts',
-    caption: 'view & import contacts',
+    title: 'View contacts',
+    caption: 'contacts list',
+    icon: 'view_comfy',
+    to: '/'
+  },
+  {
+    title: 'Contacts import',
+    caption: 'import a CSV contacts file',
     icon: 'contacts',
-    link: 'https://quasar.dev'
+    to: '/contacts'
   }
 ]
 

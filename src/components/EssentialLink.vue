@@ -1,7 +1,7 @@
 <template>
   <q-item
     clickable
-    to="/contacts"
+    :to="to"
   >
     <q-item-section
       v-if="icon"
@@ -39,6 +39,10 @@ export default {
     },
 
     icon: {
+      type: String,
+      default: ''
+    },
+    to: {
       type: String,
       default: ''
     }
