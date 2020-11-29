@@ -2,6 +2,7 @@
   <q-item
     clickable
     :to="to"
+    active-class="active"
   >
     <q-item-section
       v-if="icon"
@@ -25,7 +26,6 @@
 		props: {
 			title: {
 				type: String,
-				required: true
 			},
 
 			caption: {
